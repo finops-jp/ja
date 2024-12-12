@@ -1,6 +1,7 @@
-baseURL: https://finops-jp.github.io/docs/
-languageCode: ja-jp
+baseURL: https://finops-jp.github.io/ja/
 title: FinOps Foundation Japan Chapter Docs
+defaultContentLanguage: ja
+languageCode: ja-jp
 
 theme: hextra
 
@@ -14,8 +15,6 @@ outputs:
   page: [HTML]
   section: [HTML, RSS]
 
-defaultContentLanguage: ja
-
 markup:
   goldmark:
     renderer:
@@ -25,9 +24,11 @@ markup:
 
 enableInlineShortcodes: true
 
-
 menu:
   main:
+    - name: Home
+      weight: 1
+      url: "https://finops-jp.github.io"
     - name: Search
       weight: 80
       params:
@@ -37,6 +38,17 @@ menu:
       url: "https://github.com/finops-jp/docs"
       params:
         icon: github
+
+  sidebar:
+    - identifier: more
+      name: More
+      params:
+        type: separator
+      weight: 1
+    - identifier: about
+      name: "About"
+      pageRef: "https://finops-jp.github.io/about"
+      weight: 2
 
 params:
   navbar:
@@ -64,3 +76,8 @@ params:
   editURL:
     enable: true
     base: "https://github.com/finops-jp/docs/edit/main/content"
+
+  highlight:
+    copy:
+      enable: true
+      display: hover
