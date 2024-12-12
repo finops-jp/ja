@@ -1,0 +1,66 @@
+baseURL: https://finops-jp.github.io/docs/
+languageCode: ja-jp
+title: FinOps Foundation Japan Chapter Docs
+
+theme: hextra
+
+enableRobotsTXT: true
+enableGitInfo: true
+enableEmoji: true
+hasCJKLanguage: true
+
+outputs:
+  home: [HTML]
+  page: [HTML]
+  section: [HTML, RSS]
+
+defaultContentLanguage: ja
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
+enableInlineShortcodes: true
+
+
+menu:
+  main:
+    - name: Search
+      weight: 80
+      params:
+        type: search
+    - name: GitHub
+      weight: 90
+      url: "https://github.com/finops-jp/docs"
+      params:
+        icon: github
+
+params:
+  navbar:
+    displayTitle: true
+    displayLogo: false
+    width: wide
+
+  page:
+    # full (100%), wide (90rem), normal (1280px)
+    width: normal
+
+  theme:
+    # light | dark | system
+    default: system
+    displayToggle: true
+
+  footer:
+    enable: true
+    displayCopyright: true
+    displayPoweredBy: false
+    width: normal
+
+  displayUpdatedDate: true
+
+  editURL:
+    enable: true
+    base: "https://github.com/finops-jp/docs/edit/main/content"
