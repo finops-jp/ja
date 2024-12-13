@@ -1,1 +1,3 @@
-# framework
+# FinOps Foundation Japan Chapter Documentation website
+
+FinOps Foundationコンテンツの日本語化プロジェクトで管理するリポジトリで、日本語済みコンテンツを公開するウェブサイトの管理もしています。
