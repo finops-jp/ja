@@ -171,7 +171,7 @@ const config: Config = {
           items: [
             {
               label: 'FinOpsの採用',
-              to: '/docs/wg/adopting-finops',
+              to: 'https://www.finops.org/wg/adopting-finops/',
             },
           ],
         },

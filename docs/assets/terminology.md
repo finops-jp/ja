@@ -1,6 +1,5 @@
 ---
 title: FinOps用語
-draft: true
 ---
 
 :::warning[ドラフトのページ]
