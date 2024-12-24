@@ -6,5 +6,5 @@ FinOps Foundation（F2）コンテンツの日本語化プロジェクトが管�
 
 ## ライセンス / License
 
-The documentation is made available under the Creative Commons Attribution 4.0 International License. See the LICENSE file.  
-The website content is made available under the MIT License. See the LICENSE file.
+- The documentation is made available under the Creative Commons Attribution 4.0 International License. See the [LICENSE.md](LICENSE.md) file.
+- The website content is made available under the MIT License. See the [LICENSE-WEBSITE](LICENSE-WEBSITE.md) file.
