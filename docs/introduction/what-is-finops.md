@@ -2,41 +2,43 @@
 title: 'FinOpsとは'
 ---
 
+[英語版]:https://www.finops.org/introduction/what-is-finops/
+
 :::warning[ドラフトのページ]
+
 翻訳は機械翻訳により提供されています。
 翻訳内容と[英語版]の間で齟齬、不一致、矛盾がある場合は[英語版]を優先します。
 
-[英語版]:https://www.finops.org/introduction/what-is-finops/
 :::
 
 # FinOpsとは
 
 > 『FinOpsとは、クラウドのビジネス価値の最大化、データに基づいたタイムリーな意思決定、エンジニアリング、財務、ビジネスチーム間のコラボレーションを通じて財務上の説明責任を生み出すための運用フレームワークおよび組織文化的なプラクティスです。』
 
-FinOps Foundation [Technical Advisory Council](https://www.finops.org/about/technical-advisory-council/)  
+FinOps Foundation[技術諮問委員会](https://www.finops.org/about/technical-advisory-council/)  
 更新日: 2023年12月
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VDrcgEne6lU?si=3DrgxMX89Tmcj5rO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
-FinOpsのコアは、文化的なプラクティスです。これは、チームがクラウドのコストを管理する方法であり、中央のベストプラクティスグループがサポートするクラウド使用量のオーナーシップを全員が取得します。エンジニアリング、財務、製品などの部門横断的なチームが協力して、製品の迅速な提供を可能にすると同時に、財務管理と予測可能性を高めます。
+FinOpsの核は、組織文化的なプラクティスです。チームがクラウドコストを管理するためには、ベストプラクティスを保有するグループに支えられながら、全員が自身のクラウド使用量の当事者意識を持つことです。エンジニアリング、財務、プロダクトなどの部門横断チームが協力し合うことで、財務上の制御と予測の確度を高めながら、より迅速なプロダクトの提供を可能にします。
 
-> 『FinOpsは「Finance」と「DevOps」を組み合わせたもので、 ビジネスチームとエンジニアリングチーム間のコミュニケーションとコラボレーションに重点を置いています。』
+> 『FinOpsは 、「 Finance」と「DevOps」の言葉を組み合わせた言葉であり、ビジネスとエンジニアリングチームのコミュニケーションと協力が重要です。』
 
-このプラクティスの他の名前には、「クラウド財務管理」、「クラウド財務エンジニアリング」、「クラウドコスト管理」、「クラウド最適化」、または「クラウド財務最適化」が含まれます。
+このプラクティスの他の名前には、「クラウド財務管理（CFM: Cloud Financial Management）」、「クラウド財務エンジニアリング（Cloud Financial Engineering）」、「クラウドコスト管理（Cloud Cost Management）」、「クラウド最適化（Cloud Optimization）」、または「クラウド財務最適化（Cloud Financial Optimization）」が含まれます。
 
-> 『「Cloud Financial Operations」と誤って呼ばれることもありますが、この用語は、Financeに存在する従来の「Financial Operations」の役割との曖昧さから、人気を失いつつあります。』
+> 『Cloud FinOpsはときどき「クラウド財務運用（Cloud Financial Operations）」と誤った解釈をされますが、それは財務部門に存在する従来の「財務運用（Financial Operations）」の役割との曖昧さがあるため、あまり良くありません。』
 
-FinOpsは、その名前に関係なく、クラウドの変動支出モデルに財務説明責任の文化的な変化をもたらし、分散したエンジニアリング チームとビジネス チームがクラウド アーキテクチャと投資決定の速度、コスト、品質の間でトレードオフを行うことを可能にするプラクティスです。
+FinOpsは、その名前に関係なく、クラウドの変動支出モデルに財務説明責任の組織文化的な変化をもたらし、分散したエンジニアリングチームとビジネスームがクラウドアーキテクチャと投資決定の速度、コスト、品質の間でトレードオフを行うことを可能にするプラクティスです。
 
-> 『FinOpsがお金を節約することであると思われる場合は、考え直してください。FinOpsは、クラウドから最大限の価値を引き出し、効率的な成長を促進することを目的としています。』
+> 『FinOpsが費用を節約することのように思えるなら、もう一度考え直してください。FinOpsは、クラウドから最大限の価値を引き出し、効率的な成長を促進することを目的としています。』
 
-クラウド支出は、収益の増加、顧客ベースの成長の兆候、製品や機能のリリース速度の向上、さらにはデータセンターのシャットダウンに役立ちます。FinOpsは、ブロッカーを取り除くことがすべてです。エンジニアリングチームがより優れた機能、アプリ、移行をより迅速に提供できるようにします。そして、どこにいつ投資するかについての部門横断的な会話を可能にします。時には、企業がベルトを締めることを決定することもあります。時には、より多くの投資を決定することもあります。しかし、今ではチームはなぜそのような決定を下すのかを知っています。
+クラウド支出はより多くの収益を生み出すことができ、顧客基盤の成長を示します。また、より多くの製品と機能のリリースの速度を速め、またはデータセンターを閉鎖するのを助けることさえあります。FinOpsはさまざまな障壁を取り除きます。つまりエンジニアリングチームがより優れた機能、アプリケーション、移行についてより速く提供できるようにし、いつ、どこに投資すべきかについての部門横断的な会話を可能にします。ビジネスチームはときには引き締めの決定を行い、ときにはより多くの投資判断をします。FinOpsにより、今ではエンジニアリングチームは、それらの決定が下された理由を理解しています。
 
 ### FinOpsの学習をどこから始めるか
 
-FinOps Foundationは、あなたの親しみやすさや時間に応じて、弟子について学ぶためのさまざまな方法を提供しています。
+FinOps Foundationは、あなたの知識や時間に応じて、弟子について学ぶためのさまざまな方法を提供しています。
 
 - **FinOpsの紹介スライド**を[**Googleスライド**](https://docs.google.com/presentation/d/11TtHnL-I1_yF_jAUsHtxfB_aewADkf-bCltuS8AZW34?usp=drive_fs)または[**PowerPoint**](https://docs.google.com/presentation/d/1038O4H7aqG6v2YAqViDafRrj4jMQkIDl?rtpof=true&usp=drive_fs)でダウンロード
 - [**YouTubeでFinOpsの紹介**](https://www.youtube.com/watch?v=VDrcgEne6lU)を見る
