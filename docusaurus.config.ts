@@ -64,6 +64,18 @@ const config: Config = {
 
   plugins: [
     [
+      'client-redirects',
+      {
+        fromExtensions: ['html'],
+        redirects: [
+          {
+            from: ['/docs'],
+            to: '/',
+          },
+        ],
+      } satisfies ClientRedirectsOptions,
+    ],
+    [
       'ideal-image',
       {
         quality: 70,
