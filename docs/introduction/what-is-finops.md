@@ -94,4 +94,4 @@ FinOps実践者は、[**各クラウドからFOCUSデータを取得する方法
 
 [**FinOps Open Cost and Usage Specification(FOCUS)™**]: https://focus.finops.org/
 [**FinOpsツールベンダー**]: https://www.finops.org/landscape/?prod_TOOLS_SERVICES%5Btoggle%5D%5Bis_focus_adopter%5D=true&prod_TOOLS_SERVICES%5BrefinementList%5D%5Bcategories%5D%5B0%5D=FinOps%20Tool
-[**各クラウドからFOCUSデータを取得する方法について詳しく知ること**]: https://focus.finops.org/#obtain
+[**各クラウドからFOCUSデータを取得する方法について詳しく学ぶこと**]: https://focus.finops.org/#obtain
