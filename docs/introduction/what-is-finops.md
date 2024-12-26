@@ -1,5 +1,6 @@
 ---
 title: 'FinOpsとは'
+pagination_next: "framework/index"
 ---
 
 [英語版]:https://www.finops.org/introduction/what-is-finops/

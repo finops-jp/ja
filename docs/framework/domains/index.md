@@ -1,77 +1,88 @@
 ---
 title: FinOpsドメイン
+description: FinOpsドメインは、活動やナレッジの領域を表しています。FinOpsを採用するすべての組織は、すべてのFinOpsドメインで活動を行うことになります。
 ---
 
+[英語版]: https://www.finops.org/framework/domains/
+
 :::warning[ドラフトのページ]
+
 翻訳は機械翻訳により提供されています。
 翻訳内容と[英語版]の間で齟齬、不一致、矛盾がある場合は[英語版]を優先します。
 
-[英語版]:https://www.finops.org/framework/
 :::
 
-# FinOpsドメイン
+# FinOpsドメイン（Domains）
 
 FinOpsフレームワークのドメインは、組織がFinOpsの実践から達成すべき基本的なビジネス成果を説明しています。言い換えれば、FinOpsを実践することで、組織はクラウドの使用状況とコストを理解し、そのビジネス価値を定量化し、使用量と支払われる料金の両方を最適化し、効果的な実践を管理することができます。
 
 ---
 
-## クラウドの使用状況とコストの理解
+## クラウドの使用量とコストの理解
 
 このドメインの結果は、組織によるクラウドの使用についてより深く理解することです。このドメイン内では、組織はFinOpsの実行に必要なすべての情報を収集するために作業します。これには、直接および帰属クラウドのコスト、クラウドの使用状況、可観測性、利用、持続可能性のデータ、およびFinOpsドメインに必要なその他のデータセットが含まれます。また、このドメインのアクティビティでは、クラウドのコストと使用状況を分類、割り当て、要約するための組織のメタデータを定義し、そのデータをすべてのFinOpsペルソナが使用できるようにするレポート作成と分析のプロセスを定義します。
 
-ドメインの表示
+詳細については「[**クラウドの使用量とコストの理解**](understand-cloud-usage-cost)」を参照してください。
 
-#### ドメインケイパビリティ
+:::info[ドメインケイパビリティ]
 
-- データインジェスト
-- 割り当て
-- レポーティング&アナリティクス
-- アノマリーマネジメント
+- [データ取り込み](/docs/framework/capabilities/data-ingestion/)
+- [割り当て](/docs/framework/capabilities/allocation/)
+- [レポートと分析](/docs/framework/capabilities/reporting-analytics/)
+- [異常管理](/docs/framework/capabilities/anomaly-management/)
+
+:::
 
 ## ビジネス価値の定量化
 
 組織は、このドメインで機能を開発して、使用状況とコストのデータをそれが生み出すビジネス価値と結び付け、価値が透明で期待範囲内にあることを確保します。このドメイン内で、組織は金銭的および非金銭的なクラウドコストを予算にマッピングし、履歴情報と将来の計画を使用して技術的および組織的なKPIを予測、確立、測定し、チーム、ビジネスユニット、および他の組織とのベンチマークを実行します。
 
-ドメインの表示
+詳細については「[**ビジネス価値の定量化**](quantify-business-value)」を参照してください。
 
-#### ドメイン機能
+:::info[ドメインケイパビリティ]
 
-- プランニング& Estimationimating
-- 予測
-- 予算
-- ベンチマーク
-- ユニットエコノミクス
+- [計画と見積もり](/docs/framework/capabilities/planning-estimating)
+- [予測](/docs/framework/capabilities/forecasting)
+- [予算](/docs/framework/capabilities/budgeting)
+- [ベンチマーク](/docs/framework/capabilities/benchmarking)
+- [ユニットエコノミクス](/docs/framework/capabilities/unit-economics)
 
-## クラウドの使用とコストの最適化
+:::
+
+## クラウドの使用量とコストの最適化
 
 このドメインはクラウドの効率性に焦点を当てており、組織が組織に価値を提供する場合にのみリソースを使用するようにします。また、使用されるリソースは、組織の目標を達成するために、許容できる最小限のコストと影響で購入されます。組織は、金銭的コスト、炭素使用量、またはより伝統的なIT運用効率測定など、さまざまな方法で効率を測定します。このドメインの機能により、組織は、使用されるクラウド リソースの種類、タイミング、量、およびそれらのリソースに対して支払われる料金を管理できます。ここでの機能は、アーキテクチャのモダナイゼーション、FinOps チームの持続可能性に関する考慮事項、ライセンスおよび消費ベースの SaaS 製品の使用にも対応しています。
 
-ドメインの表示
+詳細については「[**クラウドの使用量とコストの最適化**](optimize-cloud-usage-cost)」を参照してください。
 
-#### ドメイン機能
+:::info[ドメインケイパビリティ]
 
-- クラウドの設計
-- レートの最適化
-- ワークロードの最適化
-- クラウドの持続可能性
-- ライセンシングとSaaS
+- [クラウドのアーキテクチャー設計](/docs/framework/capabilities/architecting-for-cloud)
+- [料金の最適化](/docs/framework/capabilities/rate-optimization)
+- [ワークロードの最適化](/docs/framework/capabilities/workload-optimization)
+- [クラウドの持続可能性](/docs/framework/capabilities/cloud-sustainability)
+- [ライセンスとSaaS](/docs/framework/capabilities/licensing-saas)
+
+:::
 
 ## FinOpsプラクティスの管理
 
 このドメインにより、組織全体(人、プロセス、テクノロジー)を変更し、調整するための継続的な改善が可能になり、FinOpsを採用し、企業に価値を生み出す方法でクラウドを使用できます。ここでの機能は、効果的なFinOps運用、組織全体の有効化、他のすべてのペルソナやビジネス機能との相互作用の改善、クラウドの使用をより効果的にサポートおよび表現することに重点を置いています。
 
-ドメインの表示
+詳細については「[**FinOpsプラクティスの管理**](manage-finops-practice)」を参照してください。
 
-#### ドメイン機能
+:::info[ドメインケイパビリティ]
 
-- FinOpsプラクティスオペレーション
-- クラウドポリシー&ガバナンス
-- FinOps 評価
-- FinOps ツール&サービス
-- FinOpsの教育とイネーブルメント
-- 請求書発行とチャージバック
-- ワークロードのオンボーディング
-- 交差する分野
+- [FinOpsプラクティスの運用](/docs/framework/capabilities/finops-parctice-operations)
+- [クラウドポリシーとガバナンス](/docs/framework/capabilities/cloud-policy-governance)
+- [FinOpsアセスメント](/docs/framework/capabilities/finops-assessment)
+- [FinOpsツールとサービス](/docs/framework/capabilities/finops-tools-services)
+- [FinOpsの教育と仕組みづくり](/docs/framework/capabilities/finops-education-enablement)
+- [請求とチャージバック](/docs/framework/capabilities/invoicing-chargeback)
+- [ワークロードのオンボーディング](/docs/framework/capabilities/onboarding-workloads)
+- [関連する専門分野](/docs/framework/capabilities/intersecting-disciplines)
+
+:::
 
 ---
 

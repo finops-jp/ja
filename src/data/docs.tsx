@@ -15,7 +15,8 @@ export type TagType =
   | 'favorite'
   | 'introduction'
   | 'framework'
-  | 'focus';
+  | 'focus'
+  | 'develop';
 
 // Add docs to this list
 const Docs: Doc[] = [
@@ -24,16 +25,17 @@ const Docs: Doc[] = [
     description: 'FinOpsの概要について説明します。',
     preview: require('./showcase/what-is-finops.png'),
     website: '/docs/introduction/what-is-finops',
-    source: 'https://github.com/finops-jp/ja/docs/introduction/what-is-finops',
+    source: 'https://github.com/finops-jp/ja/blob/main/docs/introduction/what-is-finops.md',
     tags: [ 'favorite', 'introduction' ],
   },
   {
     title: 'FinOpsフレームワーク',
     description: 'FinOpsフレームワークの概要について説明します。',
-    preview: require('./showcase/framework.png'),
+    preview: require('./showcase/framework.png'), // 要修正
     website: '/docs/framework',
     source: 'https://github.com/finops-jp/ja/docs/framework',
-    tags: [ 'favorite', 'introduction', 'framework' ],
+    // 開発中のタグは作業が完了したら外す
+    tags: [ 'favorite', 'introduction', 'framework', 'develop' ],
   },
   {
     title: 'FinOps用語',
@@ -41,13 +43,20 @@ const Docs: Doc[] = [
     preview: require('./showcase/terminology.png'),
     website: '/docs/assets/terminology',
     source: 'https://github.com/finops-jp/ja/docs/assets/teminology',
-    tags: [ 'favorite', 'introduction' ],
+    // 開発中のタグは作業が完了したら外す
+    tags: [ 'favorite', 'introduction', 'develop' ],
   },
-
   /*
-  Pro Tip: add docs in alphabetical order.
-  Appending docs here (at the end) is more likely to produce Git conflicts.
-   */
+  {
+    title: 'FinOpsの採用',
+    description: 'FinOpsの初期導入ガイドです。',
+    preview: require('./showcase/what-is-finops.png'), // 要修正
+    website: 'https://www.finops.org/wg/adopting-finops/',
+    source: 'https://github.com/finops-jp/ja/blob/main/docs/wg/adopting-finops',
+    // 開発中のタグは作業が完了したら外す
+    tags: [ 'favorite', 'introduction', 'develop' ],
+  },
+  */
 ];
 
 export type Doc = {
@@ -78,7 +87,7 @@ export const Tags: {[type in TagType]: Tag} = {
   introduction: {
     label: translate({message: '入門'}),
     description: translate({
-      message: 'FinOpsの入門にピッタリのドキュメントです！',
+      message: 'FinOpsの入門にピッタリのドキュメント',
       id: 'showcase.tag.introduction.description',
     }),
     color: '#dfd545',
@@ -87,7 +96,7 @@ export const Tags: {[type in TagType]: Tag} = {
   framework: {
     label: translate({message: 'フレームワーク'}),
     description: translate({
-      message: 'FinOpsフレームワークに関するドキュメントです！',
+      message: 'FinOpsフレームワークに関するドキュメント',
       id: 'showcase.tag.framework.description',
     }),
     color: '#39ca30',
@@ -96,10 +105,29 @@ export const Tags: {[type in TagType]: Tag} = {
   focus: {
     label: translate({message: 'FOCUS'}),
     description: translate({
-      message: 'FOCUSに関するドキュメントです！',
+      message: 'FOCUSに関するドキュメント',
       id: 'showcase.tag.focus.description',
     }),
     color: '#a44fb7',
+  },
+
+  /*
+  draft: {
+    label: translate({message: 'ドラフト版'}),
+    description: translate({
+      message: 'ドラフト版のドキュメント',
+      id: 'showcase.tag.focus.description',
+    }),
+    color: '#fe6829',
+  },
+  */
+  develop: {
+    label: translate({message: '開発中'}),
+    description: translate({
+      message: '開発中のドキュメント',
+      id: 'showcase.tag.focus.description',
+    }),
+    color: '#8c2f00',
   },
 };
 

@@ -1,15 +1,18 @@
 ---
 title: FinOpsフェーズ
+description: FinOpsジャーニーは、Inform、Optimize、Operateの3つの反復フェーズで構成されています。各フェーズの詳細と開始方法について理解します。
 ---
 
+[英語版]: https://www.finops.org/framework/phases/
+
 :::warning[ドラフトのページ]
+
 翻訳は機械翻訳により提供されています。
 翻訳内容と[英語版]の間で齟齬、不一致、矛盾がある場合は[英語版]を優先します。
 
-[英語版]:https://www.finops.org/framework/
 :::
 
-# FinOpsフェーズ
+# FinOpsフェーズ（Phases）
 
 FinOpsは、Inform、Optimize、Operateの3つのフェーズを通じて、フレームワーク機能に繰り返し取り組むことで実行されます。
 組織内のチームは、いつでも異なるFinOpsフェーズで作業している可能性があり、FinOpsの実践者は、常に組織のクラウドの使用に注目し、改善方法を特定し、最大の価値を推進する変更を制定する責任者を支援するためのドキュメントを作成する必要があります。
